@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
 
+import Slider from './Slider';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Here will be the photo editor app!</h1>
+    <div className="appPage">
+      <div className="image"> Image can be kept here! </div>
+        <div className="sidebar">
+
+        This is for Sidebar Bro!
+        </div>      
+      <Slider />
     </div>
   );
 }
