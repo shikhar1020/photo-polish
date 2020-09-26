@@ -94,7 +94,7 @@ function App() {
   
   function getImageStyle(){
     const filters = options.map(option => {
-      return '${option.property}(${option.value}${option.unit})'
+      return `${option.property}(${option.value}${option.unit})`
     })
 
     return { filter: filters.join(' ') }
@@ -117,6 +117,7 @@ function App() {
               />
             )
           })}
+          <a className="copyright" href="https://shikhar17srivastav.wixsite.com/portfolio" rel="noopener noreferrer" target="_blank">© Shikhar Srivastava</a>
         </div>      
         <Slider 
           min={selectedOption.range.min}

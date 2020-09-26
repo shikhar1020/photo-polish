@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './sidebarItems.css'
 
 export default function SidebarItems({name, active, handleClick}) {
@@ -6,7 +6,7 @@ export default function SidebarItems({name, active, handleClick}) {
     
     return (
         <button 
-            className={"sidebarItem ${active ? 'active' : ''}"}
+            className={`sidebarItem ${active ? 'active' : ''}`}
             onClick={handleClick}
         >
         {name}
