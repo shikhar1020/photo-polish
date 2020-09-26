@@ -1,10 +1,10 @@
 import React from 'react'
 import './sidebarItems.css'
 
-function SidebarItems() {
+export default function SidebarItems({name}) {
     return (
-        <button className="sidebarItem "> Polish Function </button>
+        <button className="sidebarItem "> {name} </button>
     )
 }
 
-export default SidebarItems
+
