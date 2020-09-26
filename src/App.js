@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 
 import Slider from './Slider';
-import SidebarItems from './SidebarItems'
+import SidebarItems from './SidebarItems';
 
 
 const DEFAULT_OPTIONS = [
@@ -28,7 +28,7 @@ const DEFAULT_OPTIONS = [
   },
   {
     name: "Saturation",
-    property: "saturation",
+    property: "saturate",
     value: 100,
     range: {
       min: 0,
@@ -76,7 +76,6 @@ const DEFAULT_OPTIONS = [
     },
     unit: "px"
   },
-
 ]
 
 function App() {
@@ -93,10 +92,20 @@ function App() {
     })
   }
   
+  function getImageStyle(){
+    const filters = options.map(option => {
+      return '${option.property}(${option.value}${option.unit})'
+    })
+
+    return { filter: filters.join(' ') }
+
+  }
+
+  console.log(getImageStyle())
 
   return (
     <div className="appPage">
-      <div className="image" />
+      <div className="image" style= {getImageStyle()}/>
         <div className="sidebar">
           {options.map((option, index) => {
             return (
@@ -109,11 +118,12 @@ function App() {
             )
           })}
         </div>      
-      <Slider />
+        <Slider 
           min={selectedOption.range.min}
           max={selectedOption.range.max}
           value={selectedOption.value}
           handleChange={handleSliderChange}
+        />
     </div>
   );
 }

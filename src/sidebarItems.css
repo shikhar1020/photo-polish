@@ -1,11 +1,14 @@
 .sidebarItem{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: cursive, sans-serif;
     cursor: pointer;
     border: none;
     outline: none;
     background-color: hsl(265, 100%, 86%);
     padding: 1rem;
     position: relative;
-    transition: background-color 200ms;
+    transition: background-color 1000ms;
 }
 
 .sidebarItem.active {
@@ -17,16 +20,19 @@
 }
 
 .sidebarItem::after {
-    content: '';
+    content: "";
     position: absolute;
-    width: 80;
+    display: block;
+    width: 80%;
     left: 10%;
     bottom: 0;
-    height: 1px ;
+    height: 2px;
     background-color: hsl(265, 100%, 46%);
 }
 
+
+/*
 .sidebarItem:last-child::after {
     display: none;
 }
-
+*/
