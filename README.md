@@ -1,16 +1,38 @@
-To visit the live site visit [Photo Polish](https://shikhar1020.github.io/photo-polish/)🚀 built with [React Js](https://reactjs.org/).🎨
-
+To visit the live site visit [Photo Polish](https://shikhar1020.github.io/photo-polish/)🚀 built with [React Js](https://reactjs.org/)<br/>
+                                                                                                                                           
+**PhotoPolish allows users to update 7 major features of an image, they are <br/>
+_🎨Brightness, Contrast, Saturation, Grayscale, Sepia, Hue Rotation, Blur!**🎨_
 
 ## **Preview**
 
-### `Sign In With Google`: Click on the "Sign In" Button to sign in with your Google Account.
-![image](https://user-images.githubusercontent.com/54438024/120001910-e7af9700-bff1-11eb-8c4e-c61f68e36bb3.png)
+**Move the meter at the bottom to adjust the property of the image.** <br/>
 
-### `Add New Room`: Click on "Add New Chat+" Button to create your own room and chat with your friends.
-![image](https://user-images.githubusercontent.com/54438024/120003196-22fe9580-bff3-11eb-80a7-2409d78db2f6.png)
+### `Brightness`: **Ranges from 0-200%, the default value is 100%.**
+![image](https://user-images.githubusercontent.com/54438024/120016147-dcfcfe00-c001-11eb-8f96-395d86e4c955.png)
 
-### `Chat Page`: Wooho! Now you can chat with your friends and get a WhatsApp like experience.
-![image](https://user-images.githubusercontent.com/54438024/120002769-c4391c00-bff2-11eb-8d70-6ca2997638bc.png)
+
+### `Contrast`: **Ranges from 0-200%, the default value is 100%.**
+![image](https://user-images.githubusercontent.com/54438024/120014341-91e1eb80-bfff-11eb-958f-26656b21d8eb.png)
+
+
+### `Saturation`: **Ranges from 0-200%, the default value is 100%.**
+![image](https://user-images.githubusercontent.com/54438024/120014753-12a0e780-c000-11eb-849c-4104a0c309a4.png)
+
+
+### `Grayscale`: **Ranges from 0-100%, the default value is 0%.**
+![image](https://user-images.githubusercontent.com/54438024/120014800-23515d80-c000-11eb-9573-f4ca5ac9f14a.png)
+
+
+### `Sepia`: **Ranges from 0-100%, the default value is 0%.**
+![image](https://user-images.githubusercontent.com/54438024/120014922-411ec280-c000-11eb-9c55-eb2c80fbcb6b.png)
+
+
+### `Hue Rotation`: **Ranges from 0-360deg, the default value is 0deg.**
+![image](https://user-images.githubusercontent.com/54438024/120015004-61e71800-c000-11eb-9b9c-3c0d556947b1.png)
+
+
+### `Blur`: **Ranges from 0-20px, the default value is 0px.**
+![image](https://user-images.githubusercontent.com/54438024/120015102-89d67b80-c000-11eb-91c0-6979b0570585.png)
 
 
 
