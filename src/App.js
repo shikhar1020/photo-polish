@@ -117,7 +117,7 @@ function App() {
               />
             )
           })}
-          <a className="copyright" href="https://shikhar17srivastav.wixsite.com/portfolio" rel="noopener noreferrer" target="_blank">© Shikhar Srivastava</a>
+          <a className="copyright" href="https://shikhar-srivastava.web.app/" rel="noopener noreferrer" target="_blank">© Shikhar Srivastava</a>
         </div>      
         <Slider 
           min={selectedOption.range.min}
